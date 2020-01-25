@@ -1,4 +1,13 @@
-# react_template_ts
+# React Cache Template
+
+## description
+  - implement cache feature in React and use following 3rd party libraries:
+    - redux
+    - redux-thunk
+    - redux-persist
+
+
+## from react_template_ts repo
 react template with following:
   - babel
   - typescript
