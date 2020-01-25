@@ -2,6 +2,7 @@
 
 ## description
   - implement cache feature in React and use following 3rd party libraries:
+    - react-redux
     - redux
     - redux-thunk
     - redux-persist
