@@ -5,6 +5,7 @@
     - redux
     - redux-thunk
     - redux-persist
+    - normalizr (normalize redux state)
 
 
 ## from react_template_ts repo
