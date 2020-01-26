@@ -5,6 +5,8 @@ import { Provider } from 'react-redux';
 import Child from './Child';
 import { PersistGate } from 'redux-persist/es/integration/react';
 import LoadingSpinner from './LoadingSpinner/LoadingSpinner';
+import { normalize } from 'normalizr';
+import { blogNormEntity } from './state/norm/config';
 
 const App = (props: any) => {
 
