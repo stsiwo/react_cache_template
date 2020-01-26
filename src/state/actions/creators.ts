@@ -1,6 +1,5 @@
 import { ToggleLoginFormActionCreatorType, ActionTypeEnum, ToggleSignupFormActionCreatorType, ToggleNavBarActionCreatorType, ToggleFilterSortBarActionCreatorType, } from "./types";
 
-
 /** ui **/                 
 export const toggleLoginFormActionCreator: ToggleLoginFormActionCreatorType = (isLoginFormOpen) => ({
   type: ActionTypeEnum.TOGGLE_LOGIN_FORM, 
