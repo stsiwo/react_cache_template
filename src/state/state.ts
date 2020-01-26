@@ -6,6 +6,12 @@ export const initialState: StateType = {
     isSignupFormOpen: false,
     isNavBarOpen: false,
     isFilterSortBarOpen: false,
+  },
+  test: 'initial',
+  // for redux-persist
+  _persist: {
+    version: null,
+    rehydrated: null
   }
 }
 

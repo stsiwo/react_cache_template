@@ -1,0 +1,22 @@
+
+.loading-spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%; 
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(0, 0, 0, .5);
+  border-radius: 50%;
+  border-top-color: black;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  // transform: translate(-50%, -50%);
+  // cause trigger spin keyframes for this transform
+  // how to avoid this and make it only apply for animation propperty
+}
+  @keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+  }

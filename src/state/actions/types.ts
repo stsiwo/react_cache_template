@@ -7,6 +7,9 @@ export enum ActionTypeEnum {
   TOGGLE_SIGNUP_FORM = 'TOGGLE_SIGNUP_FORM',
   TOGGLE_NAV_BAR = 'TOGGLE_NAV_BAR',
   TOGGLE_FILTER_SORT_BAR = 'TOGGLE_FILTER_SORT_BAR',
+
+  /** test **/
+  SET_TEST_TEXT = 'SET_TEST_TEXT'
 }
 
 /** action type **/
@@ -30,6 +33,12 @@ export declare type ToggleFilterSortBarActionType = AppActionType & {
   isFilterSortBarOpen: boolean
 }
 
+/** test **/
+export declare type SetTestTextActionType = AppActionType & {
+  test: string
+}
+
+
 /** action creator type **/
 export declare type ActionCreatorType = (...args: any[]) => AnyAction
 
@@ -41,5 +50,9 @@ export declare type ToggleSignupFormActionCreatorType = (isSignupFormOpen: boole
 export declare type ToggleNavBarActionCreatorType = (isNavBarOpen: boolean) => ToggleNavBarActionType
 
 export declare type ToggleFilterSortBarActionCreatorType = (isFilterSortBarOpen: boolean) => ToggleFilterSortBarActionType
+
+/** test **/
+export declare type SetTestTextActionCreatorType = (test: string) => SetTestTextActionType
+
 
 

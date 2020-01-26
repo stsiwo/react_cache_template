@@ -1,4 +1,4 @@
-import { ToggleLoginFormActionCreatorType, ActionTypeEnum, ToggleSignupFormActionCreatorType, ToggleNavBarActionCreatorType, ToggleFilterSortBarActionCreatorType, } from "./types";
+import { ToggleLoginFormActionCreatorType, ActionTypeEnum, ToggleSignupFormActionCreatorType, ToggleNavBarActionCreatorType, ToggleFilterSortBarActionCreatorType, SetTestTextActionCreatorType, } from "./types";
 
 /** ui **/                 
 export const toggleLoginFormActionCreator: ToggleLoginFormActionCreatorType = (isLoginFormOpen) => ({
@@ -21,3 +21,10 @@ export const toggleFilterSortBarActionCreator: ToggleFilterSortBarActionCreatorT
   type: ActionTypeEnum.TOGGLE_FILTER_SORT_BAR,
   isFilterSortBarOpen: isFilterSortBarOpen
 })  
+
+/** test **/
+export const setTestTextActionCreator: SetTestTextActionCreatorType = (test) => ({
+  type: ActionTypeEnum.SET_TEST_TEXT,
+  test: test
+})  
+
